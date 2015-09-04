@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+<body>
+
+    <div ng-app="myApp" ng-controller="personCtrl">
+        <p>Enter github repo url:
+            <input type="text" ng-model="url">
+            <button ng-click="save()">get</button>
+        </p>
+        <table border="1" ng-if=clicked>
+            <tr>
+                <td>Total number of open issues</td>
+                <td>20</td>
+            </tr>
+            <tr>
+                <td>Number of open issues that were opened in the last 24 hours</td>
+                <td>20</td>
+            </tr>
+            <tr>
+                <td>Number of open issues that were opened more than 24 hours ago but less than 7 days ago</td>
+                <td>20</td>
+            </tr>
+            <tr>
+                <td>Number of open issues that were opened more than 7 days ago </td>
+                <td>20</td>
+            </tr>
+        </table>
+
+    </div>
+    <script src="main.js"></script>
+
+</body>
+</html>
