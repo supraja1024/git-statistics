@@ -20,7 +20,7 @@ Application listening on port 8080
 ```js
 Enter localhost:8080 in your browser
 
-Enter the  complete URL  of any public github repository.
+Enter the  complete URL  of any public github repository in the input box shown.
 
 You will get the statistics in a table below.
 
