@@ -1,26 +1,19 @@
 <!doctype html>
 
 <!-- ASSIGN OUR ANGULAR MODULE -->
-<html ng-app="scotchTodo">
+<html ng-app="myApp">
 
 <head>
-    <!-- META -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- Optimize mobile viewport -->
 
-    <title>Git Open Issues</title>
-
-    <!-- SPELLS -->
-    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.16/angular.min.js"></script>
+    <title>Git Statistics</title>
     <!-- load angular -->
-
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.16/angular.min.js"></script>
+    <!-- load up the controller -->
     <script src="js/controllers/main.js"></script>
-    <!-- load up our controller -->
-    <script src="js/services/todos.js"></script>
-    <!-- load our todo service -->
+    <!-- load the todo service -->
+    <script src="js/services/Issues.js"></script>
+    <!-- load the main application -->
     <script src="js/core.js"></script>
-    <!-- load our main application -->
 
 </head>
 <!-- SET THE CONTROLLER -->
@@ -29,7 +22,7 @@
     <div>
         <p>Enter github repo url:
             <input type="text" ng-model="url">
-            <button ng-click="save()">get</button>
+            <button ng-click="getOpenIssues()">get</button>
         </p>
         <p ng-if=clicked>statistics for <span>{{urlEntered}}</span> are as follows</p>
         <table border="1" ng-if=clicked>
