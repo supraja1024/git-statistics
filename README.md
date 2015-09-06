@@ -30,7 +30,7 @@ You will get the statistics in a table below.
 ## Bug Reports
 
 ```js
-Report [here](http://github.com/supraja1024/screening-shippable/issues). __Guaranteed reply within a day__.
+Report [here](http://github.com/supraja1024/screening-shippable/issues)
 ```
 
 ## Contact
