@@ -20,9 +20,18 @@ Application listening on port 8080
 ```js
 Enter localhost:8080 in your browser
 
-Enter the  complete URL  of any public github repository in the input box shown.
+Enter the complete URL of any public github repository in the input box shown.
 
 You will get the statistics in a table below.
+
+```
+
+## Usage
+
+```js
+I have created a node application using AngularJS for front end.
+
+I have used an npm module called octonode which is a git API for fetching the issues statistics from github repository.
 
 ```
 
