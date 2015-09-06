@@ -26,6 +26,13 @@ You will get the statistics in a table below.
 
 ```
 
+## Improvements that can be made
+
+```js
+Performance can be improved by looking for much efficient way.
+
+The project can be made visually attractive by using CSS styles and Icons.
+```
 
 ## Bug Reports
 
