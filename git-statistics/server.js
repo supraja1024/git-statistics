@@ -1,7 +1,6 @@
 // set up ======================================================================
 var express  = require('express');
 var app      = express(); 								// create our app w/ express
-var mongoose = require('mongoose'); 					// mongoose for mongodb
 var port  	 = process.env.PORT || 8080; 				// load the database config
 var morgan   = require('morgan');
 var bodyParser = require('body-parser');
@@ -21,4 +20,4 @@ require('./app/routes.js')(app);
 
 // listen (start app with node server.js) ======================================
 app.listen(port);
-console.log("App listening on port " + port);
+console.log("Application listening on port " + port);
