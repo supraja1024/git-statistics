@@ -44,6 +44,7 @@ function getIssues(res, repoArray) { /** function deifintion for fetching issue 
                     }
                 }
                 if (i >= totalIssues.length) {
+                    response.totalIssues = totalIssues.length;
                     res.jsonp(response); /** sending issues statistics to client*/
                 }
             }

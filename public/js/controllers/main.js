@@ -13,9 +13,13 @@ angular.module('parentController', [])
                 .success(function (data) { /** service call for fetching the open issues statistics */
                     if (data.error) {
                         alert(data.error);
-                    } else {
-                        console.dir(data);
+                    } else if(!data.totalIssues){
+                        alert('There are no Open Issues for the repository');
+                    }else {
                         $scope.statistics = data;
+                        if (!data.totalIssues) {
+                            $scope.statistics.day = 0; /** assigining zero if the server doesn't return anything as the node server doesn't return zero */
+                        }
                         if (!data.day) {
                             $scope.statistics.day = 0; /** assigining zero if the server doesn't return anything as the node server doesn't return zero */
                         }
