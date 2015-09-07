@@ -7,6 +7,10 @@ This is a project for fetching the statistics of open issues for any public git 
 ## Starting the application
 
 ```js
+
+npm install
+
+
 node server.js
 
 It will show the following message: 
@@ -26,7 +30,7 @@ You will get the statistics in a table below.
 
 ```
 
-## Usage
+## Solution Description
 
 ```js
 I have created a node application using AngularJS for front end.
