@@ -10,7 +10,6 @@ This is a project for fetching the statistics of open issues for any public git 
 
 npm install
 
-
 node server.js
 
 It will show the following message: 
