@@ -25,8 +25,7 @@ Enter localhost:8080 in your browser
 
 Enter the complete URL of any public github repository in the input box shown.
 
-You will get the statistics in a table below.
-
+Statistics will be displayed in a table below the input box.
 ```
 
 ## Solution Description
@@ -35,7 +34,6 @@ You will get the statistics in a table below.
 I have created a node application using AngularJS for front end.
 
 I have used an npm module called octonode which is a git API for fetching the issues statistics from github repository.
-
 ```
 
 ## Improvements that can be made
@@ -44,6 +42,8 @@ I have used an npm module called octonode which is a git API for fetching the is
 Performance can be improved by looking for much efficient way.
 
 The project can be made visually attractive by using CSS styles and Icons.
+
+Troubleshooting can be improved.
 ```
 
 ## Bug Reports
